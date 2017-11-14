@@ -1,0 +1,49 @@
+{
+  "models": {
+    "blue_alien_forest": {
+      "name": "Blue Alien Forest"
+    },
+    "castle_on_hills": {
+      "name": "Castle on Hills"
+    },
+    "cyberpunk_bar": {
+      "name": "Cyberpunk Bar"
+    },
+    "isometric_game_tile": {
+      "name": "Game Tile"
+    },
+    "isometric_harvest_moon": {
+      "name": "Harvest Moon"
+    },
+    "isometric_witch_house": {
+      "name": "Witch House"
+    },
+    "low_poly_isometric_bathroom": {
+      "name": "Bathroom"
+    },
+    "lowpoly_fox": {
+      "name": "Fox"
+    },
+    "mars_one_mission_-_base": {
+      "name": "Mars One Mission: Base"
+    },
+    "robin_hood_in_sherwood_forest": {
+      "name": "Robin Hood in Sherwood Forest"
+    },
+    "rush_hour_city": {
+      "name": "Rush Hour City"
+    },
+    "vendels_workshop": {
+      "name": "Vendel's Workshop"
+    },
+    "viking_room": {
+      "name": "Viking Room"
+    },
+    "vr_apartment": {
+      "name": "Apartment"
+    },
+    "vr_train_wagon": {
+      "name": "Train Wagon"
+    }
+  }
+}

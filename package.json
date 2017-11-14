@@ -1,0 +1,34 @@
+{
+  "name": "webvrrocks.sketchfab",
+  "version": "0.0.1",
+  "description": "WebVR-compatible Sketchfab models (glTF format)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webvrrocks/sketchfab.git"
+  },
+  "author": "WebVR Rocks authors",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/webvrrocks/sketchfab/issues"
+  },
+  "homepage": "https://github.com/webvrrocks/sketchfab#readme",
+  "keywords": [
+    "webvr",
+    "vr",
+    "sketchfab",
+    "assets",
+    "gltf",
+    "models"
+  ],
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  },
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "live-server . --cors",
+    "build": "node ./scripts/generateWebFiles.js",
+    "preinstall": "npm run build",
+    "predev": "npm run build"
+  }
+}
